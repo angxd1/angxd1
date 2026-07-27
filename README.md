@@ -19,7 +19,7 @@
 ```ts
 const angad = {
   program:  "BASc Computer Science @ McMaster '29",
-  now:      "SWE Intern @ CloudSynApps — Azure AI & data",
+  now:      "SWE Intern @ CloudSynApps",
   leading:  "President, AWS Student Builder Group @ McMaster",
   before:   "Cloud Engineer, AWS Cloud Club @ McMaster",
   focus:    ["real-time systems", "applied AI", "cloud + data tooling"],
@@ -79,7 +79,6 @@ tells you why it can't be trusted. Latency and failure modes are the interesting
      policy, so logo=amazonwebservices / logo=azure silently render nothing. -->
 
 ![AWS](https://img.shields.io/badge/AWS-0d1117?style=flat-square&labelColor=0d1117)
-![Azure](https://img.shields.io/badge/Azure-0d1117?style=flat-square&labelColor=0d1117)
 ![Docker](https://img.shields.io/badge/Docker-0d1117?style=flat-square&logo=docker&logoColor=ff9900)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0d1117?style=flat-square&logo=postgresql&logoColor=ff9900)
 ![Redis](https://img.shields.io/badge/Redis-0d1117?style=flat-square&logo=redis&logoColor=ff9900)
@@ -90,7 +89,7 @@ tells you why it can't be trusted. Latency and failure modes are the interesting
 
 ### `> now`
 
-- Interning at **CloudSynApps** through the summer — Azure AI and data work.
+- Interning at **CloudSynApps** through the summer
 - Leading the **AWS Student Builder Group** at McMaster — workshops, cloud labs, and project nights.
 - Growing **[ApplyPulse](https://github.com/angxd1/Autonomous-Job-Search-OS)** toward a v1.0 launch.
 - Grinding **[NeetCode](https://github.com/angxd1/neetcode-submissions)** on the side.
