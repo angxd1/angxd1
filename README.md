@@ -18,7 +18,8 @@
 
 ```ts
 const angad = {
-  program:  "BASc Computer Science @ McMaster University",
+  program:  "BASc Computer Science @ McMaster '29",
+  now:      "SWE Intern @ CloudSynApps — Azure AI & data",
   leading:  "President, AWS Student Builder Group @ McMaster",
   before:   "Cloud Engineer, AWS Cloud Club @ McMaster",
   focus:    ["real-time systems", "applied AI", "cloud + data tooling"],
@@ -35,22 +36,19 @@ tells you why it can't be trusted. Latency and failure modes are the interesting
 
 ### `> projects`
 
-Most of these were built with a team. The **Role** column says exactly what I owned — the repo
-history backs it up.
-
 <!-- NOTE: Data Health Console has a live Streamlit demo, but as of the last check it 303s to a
-     Streamlit sign-in wall for logged-out visitors. Make the app public, then add this to its
-     Project cell: · **[live ↗](https://data-analyzer-s6jcpxygphyuv5rwxcmozt.streamlit.app/)**
+     Streamlit sign-in wall for logged-out visitors. Make the app public, then add this next to
+     its name: · **[live ↗](https://data-analyzer-s6jcpxygphyuv5rwxcmozt.streamlit.app/)**
      A live demo link is the single highest-value thing on this table — worth fixing first. -->
 
-| Project | Role | Stack | What it is |
-|---|---|---|---|
-| **[Dextera](https://github.com/athravseruwam07/dextera)** | Team of 4 · joint-top contributor | ESP32 · Node · Express · Postgres · WS · React · R3F | Smart-glove stroke-rehab platform. Five flex sensors stream 12-bit ADC over serial; a Node bridge normalizes them into per-patient calibrated 0–100 bend values and broadcasts gestures to a live clinician dashboard over WebSockets. Four MediaPipe + React Three Fiber rehab games score reps, accuracy, and weakest finger. |
-| **[ApplyPulse](https://github.com/angxd1/Autonomous-Job-Search-OS)** | Solo · MIT | Next.js 15 · Prisma · Supabase · Inngest · Chrome MV3 | Open-source job-search OS. A Chrome extension captures postings from any board, forwarded application emails get classified (OA / interview / rejection / offer) by an Inngest pipeline, and the pipeline updates itself. Shipped v0.1 → v0.4. |
-| **[MemoLens](https://github.com/athravseruwam07/memolens)** | Team of 2 | FastAPI · Next.js · Postgres · Redis · Docker | Real-time assistive system for dementia care. Recognizes familiar faces, tracks where daily items were last seen, fires contextual reminders, and streams a live event feed to caregivers. Ships with deploy-check and end-to-end smoke scripts. |
-| **[Doceo](https://github.com/athravseruwam07/doceo)** | Team of 3 | Next.js 15 · FastAPI · Gemini · SSE · Framer Motion | AI STEM tutor that teaches on an animated whiteboard. Gemini generates a structured lesson streamed step-by-step over SSE, TTS narration stays synced to KaTeX animations, and you can interrupt mid-lesson to ask why. |
-| **[Data Health Console](https://github.com/angxd1/Data-Analyzer)** | Solo | Python · Streamlit · Pandas · SQLite · pytest | Dataset triage before you model anything. Heuristic checks for ID-like columns, near-constant fields, unparsed dates, and runaway cardinality, folded into a 0–100 quality score. SQLite persistence, pytest suite, GitHub Actions CI. |
-| **[OpenClaw Workshop](https://github.com/Jasiri-w/aws-cc-mac-openclaw-workshop)** | Co-author · AWS Cloud Club | AWS EC2 · S3 · FastAPI · Whisper · Ollama | The workshop I helped write and run for McMaster students: build a local Whisper + Ollama note-taker, then deploy an AI agent to EC2 and wire it to Discord and S3. ~1 hour, start to working deploy. |
+| Project | What it is |
+|---|---|
+| **[Dextera](https://github.com/athravseruwam07/dextera)** | A smart-glove platform for stroke and hand-trauma rehab. Sensors on the glove stream finger movement into a live clinician dashboard, and patients do their therapy as games that score reps and accuracy. |
+| **[ApplyPulse](https://github.com/angxd1/Autonomous-Job-Search-OS)** | An open-source job-search tracker that maintains itself. Save a posting from any job board in one click, then forwarded application emails move it through the pipeline automatically. |
+| **[MemoLens](https://github.com/athravseruwam07/memolens)** | A real-time assistive system for dementia care. It recognizes familiar faces, remembers where daily items were last seen, and keeps caregivers updated through a live feed. |
+| **[Doceo](https://github.com/athravseruwam07/doceo)** | An AI tutor that teaches STEM problems on an animated whiteboard with voice narration. You can interrupt it mid-lesson to ask why something works. |
+| **[Data Health Console](https://github.com/angxd1/Data-Analyzer)** | A tool for checking whether a dataset is trustworthy before you model it. It flags ID columns, unparsed dates, and duplicates, then scores the file out of 100. |
+| **[OpenClaw Workshop](https://github.com/Jasiri-w/aws-cc-mac-openclaw-workshop)** | The AWS Cloud Club workshop I helped write and run at McMaster. Students build a local AI note-taker, then deploy an agent to EC2 and connect it to Discord. |
 
 ---
 
@@ -76,7 +74,12 @@ history backs it up.
 
 **Infra & Data**
 
-![AWS](https://img.shields.io/badge/AWS-0d1117?style=flat-square&logo=amazonwebservices&logoColor=ff9900)
+<!-- AWS and Azure render as text-only chips on purpose: Simple Icons (what shields.io
+     pulls logos from) removed the Amazon and Microsoft brand families over trademark
+     policy, so logo=amazonwebservices / logo=azure silently render nothing. -->
+
+![AWS](https://img.shields.io/badge/AWS-0d1117?style=flat-square&labelColor=0d1117)
+![Azure](https://img.shields.io/badge/Azure-0d1117?style=flat-square&labelColor=0d1117)
 ![Docker](https://img.shields.io/badge/Docker-0d1117?style=flat-square&logo=docker&logoColor=ff9900)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0d1117?style=flat-square&logo=postgresql&logoColor=ff9900)
 ![Redis](https://img.shields.io/badge/Redis-0d1117?style=flat-square&logo=redis&logoColor=ff9900)
@@ -87,6 +90,7 @@ history backs it up.
 
 ### `> now`
 
+- Interning at **CloudSynApps** through the summer — Azure AI and data work.
 - Leading the **AWS Student Builder Group** at McMaster — workshops, cloud labs, and project nights.
 - Growing **[ApplyPulse](https://github.com/angxd1/Autonomous-Job-Search-OS)** toward a v1.0 launch.
 - Grinding **[NeetCode](https://github.com/angxd1/neetcode-submissions)** on the side.
