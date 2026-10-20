@@ -19,18 +19,16 @@
 ```ts
 const angad = {
   program:  "BASc Computer Science @ McMaster '29",
-  now:      "SWE Intern @ CloudSynApps",
+  previous: "SWE Intern @ CloudSynApps",
   leading:  "President, AWS Student Builder Group @ McMaster",
   before:   "Cloud Engineer, AWS Cloud Club @ McMaster",
   focus:    ["real-time systems", "applied AI", "cloud + data tooling"],
-  based_in: "Hamilton, ON",
-  status:   "open to Summer 2027 internships",
+  based_in: "Oakville, ON",
+  status:   "seeking Summer 2027 internships",
 };
 ```
 
-I like the part of software where a hard system has to feel simple — a glove that streams
-sensor data into a clinician's dashboard, an inbox that quietly reorganizes itself, a CSV that
-tells you why it can't be trusted. Latency and failure modes are the interesting part.
+Build it. Demo it. Then make it not fall over.
 
 ---
 
@@ -44,7 +42,6 @@ tells you why it can't be trusted. Latency and failure modes are the interesting
 | Project | What it is |
 |---|---|
 | **[Dextera](https://github.com/athravseruwam07/dextera)** | A smart-glove platform for stroke and hand-trauma rehab. Sensors on the glove stream finger movement into a live clinician dashboard, and patients do their therapy as games that score reps and accuracy. |
-| **[ApplyPulse](https://github.com/angxd1/Autonomous-Job-Search-OS)** | An open-source job-search tracker that maintains itself. Save a posting from any job board in one click, then forwarded application emails move it through the pipeline automatically. |
 | **[MemoLens](https://github.com/athravseruwam07/memolens)** | A real-time assistive system for dementia care. It recognizes familiar faces, remembers where daily items were last seen, and keeps caregivers updated through a live feed. |
 | **[Doceo](https://github.com/athravseruwam07/doceo)** | An AI tutor that teaches STEM problems on an animated whiteboard with voice narration. You can interrupt it mid-lesson to ask why something works. |
 | **[Data Health Console](https://github.com/angxd1/Data-Analyzer)** | A tool for checking whether a dataset is trustworthy before you model it. It flags ID columns, unparsed dates, and duplicates, then scores the file out of 100. |
@@ -89,9 +86,7 @@ tells you why it can't be trusted. Latency and failure modes are the interesting
 
 ### `> now`
 
-- Interning at **CloudSynApps** through the summer
 - Leading the **AWS Student Builder Group** at McMaster — workshops, cloud labs, and project nights.
-- Growing **[ApplyPulse](https://github.com/angxd1/Autonomous-Job-Search-OS)** toward a v1.0 launch.
 - Grinding **[NeetCode](https://github.com/angxd1/neetcode-submissions)** on the side.
 
 <!-- STATS CARDS: deliberately omitted, for two reasons.
