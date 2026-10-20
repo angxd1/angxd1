@@ -21,7 +21,6 @@ const angad = {
   program:  "BASc Computer Science @ McMaster '29",
   previous: "SWE Intern @ CloudSynApps",
   leading:  "President, AWS Student Builder Group @ McMaster",
-  before:   "Cloud Engineer, AWS Cloud Club @ McMaster",
   focus:    ["real-time systems", "applied AI", "cloud + data tooling"],
   based_in: "Oakville, ON",
   status:   "seeking Summer 2027 internships",
@@ -86,7 +85,7 @@ Build it. Demo it. Then make it not fall over.
 
 ### `> now`
 
-- Leading the **AWS Student Builder Group** at McMaster — workshops, cloud labs, and project nights.
+- Leading the **AWS Student Builder Group** at McMaster — workshops, networking, and project nights.
 - Grinding **[NeetCode](https://github.com/angxd1/neetcode-submissions)** on the side.
 
 <!-- STATS CARDS: deliberately omitted, for two reasons.
